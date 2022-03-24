@@ -63,10 +63,3 @@ body {
     animation: amoungAnimation 6s;
   }
   
-=======
-body{
-    background-image: url(kill.webp);
-    min-height: 100vh;
-    background-size: cover;
-}
->>>>>>> 737b231d7cba9a552ea3a732f8d5bbd65c70aa3c
