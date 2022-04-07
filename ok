@@ -1,4 +1,125 @@
-<div class="player2-container">
-    <img src="player2.png" alt="">
-  </div>
+body{
+    background-image: url(vURuBTgIHepUfrG4vDPoMOB74AvawkmPrwtf5BaqjuE.jpg.webp);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.players-containers{
+    background-image: url(imposter.png);
+    background-size: contain;
+
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 100%;
+    top: 50%;
+    width: 500px;
+    height: 500px;
+    animation: amoungAnimations 4s infinite;
+  }
+
+.players-containers img{
+  width: 300%;
+}
+
+@keyframes amoungAnimations {
+  1%{
+    top: 0%;
+    left: 100s%;
+   
+  }
+
+  20%{
+    top: 20%;
+    left: 80%;
+   
+    /* width: 240px; */
+  }
+
+  40%{
+    left: 60%;
+    top: 60%;
  
+  } 
+
+    60% {
+      top: 50%;
+      left: 40%;
+     
+    }
+ 
+    80%{
+      top: 50%;
+      left: 20%;
+      
+      /* width: 240px; */
+    }
+ 
+    100%{
+      left: 1%;
+      top: 50%;
+      
+  
+  }
+}
+  {
+}
+
+}
+.players-container{
+  background-image: url(yellow.png);
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 100%;
+  top: 50%;
+  width: 500px;
+  height: 500px;
+  animation: amoungAnimations 4s infinite;
+}
+
+  
+  
+  
+.players-container img{
+  width: 300%;
+}
+
+@keyframes amoungAnimations2 {
+  1%{
+    top: 50%;
+    left: 80%;
+   
+  }
+
+  20%{
+    top: 20%;
+    left: 60%;
+   
+    /* width: 240px; */
+  }
+
+  40%{
+    left: 50%;
+    top: 50%;
+ 
+  } 
+
+    60% {
+      top: 50%;
+      left: 40%;
+     
+    }
+ 
+    80%{
+      top: 50%;
+      left: 20%;
+      
+      /* width: 240px; */
+    }
+ 
+    100%{
+      left: 1%;
+      top: 50%;
+      
+  
+  }
