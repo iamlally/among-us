@@ -35,6 +35,19 @@ body{
   animation: amoungAnimations2 4s infinite;
 }
 
+.ending-container{
+  background-image: url(cc.png);
+  background-size: contain;
+
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0%;
+  top: 50%;
+  width: 140px;
+  height: 100px;
+  animation: endingAnimation 4s infinite;
+}
+
 
 @keyframes amoungAnimations {
   1%{
@@ -121,3 +134,7 @@ body{
   }
 }
   
+
+
+  
+
