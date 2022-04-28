@@ -1,0 +1,64 @@
+body{
+    background-image: url(159963221-.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.playerss-containerss{
+    background-image: url(159963221-.jpg);
+    background-size: contain;
+
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 100%;
+    top: 50%;
+    width: 500px;
+    height: 500px;
+    animation: amoungAnimations 4s infinite;
+  }
+
+.playerss-containerss img{
+  width: 150%;
+}
+
+@keyframes amoungAnimations {
+  1%{
+    top: 10%;
+    left: 10%;
+   
+  }
+
+  20%{
+    top: 20%;
+    left: 10%;
+   
+    /* width: 240px; */
+  }
+
+  40%{
+    left: 10%;
+    top: 40%;
+ 
+  } 
+
+    60% {
+      top: 60%;
+      left: 10%;
+     
+    }
+ 
+    80%{
+      top: 80%;
+      left: 10%;
+      
+      /* width: 240px; */
+    }
+ 
+    100%{
+      left: 10%;
+      top: 90%;
+      
+  
+  }
+}
+
