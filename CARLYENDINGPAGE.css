@@ -1,0 +1,24 @@
+body{
+    background-image: url(kill.png);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.ending-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    animation: 1s appear 2s forwards;
+}
+.ending-container img{
+    width: 100%;
+}
+
+@keyframes appear{
+    100%{
+        opacity: 1;
+    }
+}
