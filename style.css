@@ -20,8 +20,8 @@ body {
 .player2-container{
   position: absolute;
   left: 20%;
-  top: 60%;
-  width: 140px;
+  top: 20%;
+  width: 300px;
   animation: amoungAnimation2 4s infinite;
 }
 .player2-container img{
@@ -33,7 +33,7 @@ body {
 
   }
   50%,100%{
-    background-image:url(0.png)
+    background-image:url(Unknown-1.jpeg)
   }
 }
 
@@ -92,11 +92,4 @@ body {
       left: 100%;
     }
   
-<<<<<<< HEAD
 }
-
-
-  
-=======
-  
->>>>>>> 2099bb569350df6a95c17fea31692247deabfaaa
