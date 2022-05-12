@@ -1,0 +1,140 @@
+body{
+    background-image: url(among_us_cafeteria_scenario_lowpoly_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_3343607_o.png);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.player-container{
+    background-image: url(images/player.png);
+    background-size: contain;
+
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 0%;
+    top: 50%;
+    width: 140px;
+    height: 100px;
+    animation: amoungAnimations 4s infinite;
+  }
+  
+  
+.player-container img{
+  width: 300%;
+}
+
+.green-kill-container{
+  background-image: url(images/green-kill.png);
+  background-size: contain;
+
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0%;
+  top: 50%;
+  width: 140px;
+  height: 100px;
+  animation: amoungAnimations2 4s infinite;
+}
+
+.ending-container{
+  background-image: url(cc.png);
+  background-size: contain;
+
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0%;
+  top: 50%;
+  width: 140px;
+  height: 100px;
+  animation: endingAnimation 4s infinite;
+}
+
+
+@keyframes amoungAnimations {
+  1%{
+    top: 50%;
+    left: 0%;
+   
+  }
+
+  20%{
+    top: 20%;
+    left: 20%;
+   
+    /* width: 240px; */
+  }
+
+  40%{
+    left: 40%;
+    top: 50%;
+ 
+  } 
+
+    60% {
+      top: 50%;
+      left: 60%;
+     
+    }
+    79%{
+      background-image: url(images/player.png);
+
+    }
+    80%{
+      top: 50%;
+      left: 60%;
+      opacity: 1;  
+      background-image: url('images/player-ded.png');
+      /* width: 240px; */
+    }
+
+ 
+    100%{
+      left: 60%;
+      top: 50%;
+      opacity: 0;
+      background-image: url('images/player-ded.png');
+      
+  
+  }
+
+}
+@keyframes amoungAnimations2 {
+  1%{
+    top: 50%;
+   right: 0%;
+   
+  }
+
+  20%{
+    top: 20%;
+  right: 30%;
+   
+  }
+
+  40%{
+    left: 20%;
+    top: 50%;
+ 
+  } 
+
+    60% {
+      top: 50%;
+   left: 50%;
+     
+    }
+ 
+    80%{
+      top: 50%;
+     left: 50%;
+      
+    }
+ 
+    100%{
+   left: 100%;
+      top: 50%;
+  }
+}
+  
+
+
+  
+
