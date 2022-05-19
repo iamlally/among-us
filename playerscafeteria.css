@@ -1,10 +1,10 @@
 body{
     background-image: url(among_us_cafeteria_scenario_lowpoly_3d_model_c4d_max_obj_fbx_ma_lwo_3ds_3dm_stl_3343607_o.png);
-    min-height: 100vh;
-    background-size: cover;
+    min-height: 10vh;
+    background-size: contain;
 }
 
-.player-container{
+.players-containers{
     background-image: url(images/player.png);
     background-size: contain;
 
@@ -12,17 +12,17 @@ body{
     background-repeat: no-repeat;
     left: 0%;
     top: 50%;
-    width: 140px;
+    width: 50px;
     height: 100px;
     animation: amoungAnimations 4s infinite;
   }
   
   
 .player-container img{
-  width: 300%;
+  width: 150%;
 }
 
-.green-kill-container{
+.rosso-container{
   background-image: url(images/green-kill.png);
   background-size: contain;
 
@@ -30,12 +30,12 @@ body{
   background-repeat: no-repeat;
   left: 0%;
   top: 50%;
-  width: 140px;
+  width: 50px;
   height: 100px;
   animation: amoungAnimations2 4s infinite;
 }
 
-.ending-container{
+.yellow-container{
   background-image: url(cc.png);
   background-size: contain;
 
@@ -43,7 +43,7 @@ body{
   background-repeat: no-repeat;
   left: 0%;
   top: 50%;
-  width: 140px;
+  width: 50px;
   height: 100px;
   animation: endingAnimation 4s infinite;
 }
@@ -57,7 +57,7 @@ body{
   }
 
   20%{
-    top: 20%;
+    top: 40%;
     left: 20%;
    
     /* width: 240px; */
